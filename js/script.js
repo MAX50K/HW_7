@@ -26,13 +26,19 @@ for (let word of words) {
     }
 }
 // 6
-let tenNumbers = [3, 17, 42, 8, 29, 56, 91, 14, 63, 77]
+let tenNumbers = [7]
 let biggestNumber = tenNumbers[0]
 for (const number of tenNumbers) {
     if (number > biggestNumber) {
         biggestNumber = number
     }
 }
-console.log(`The Biggest number is: ${biggestNumber}`);
-// 7
-let tenNumbers2 = []
+let tenNumbers2 = [3, 17, 42, 8, 29, 56, 91, 14, 63, 7];
+let evenNumbers = [];
+for (let i = 0; i < tenNumbers2.length; i++) {
+    if (tenNumbers2[i] % 2 === 0) {
+        evenNumbers.push(tenNumbers2[i]);
+    }
+  
+}
+console.log(evenNumbers);
