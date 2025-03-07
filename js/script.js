@@ -7,10 +7,12 @@ let drink = ["tea", "coffee", "juice"]
 drink[3] = "water"
 console.log(drink);
 // 3
-let numbers = [1, 2, 3, 4, 5];
-for (const number of numbers) {
-    console.log(number);
+let numbers = [12, 7, 9, 65];
+let sum = 0;
+for (const num of numbers) {
+    sum += num;
 }
+console.log("Сума чисел:", sum);
 console.log("-----------------------------");
 // 4
 let fiveNumbers = [1, 2, 3, 4, 5];
